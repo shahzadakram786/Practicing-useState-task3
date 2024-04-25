@@ -1,8 +1,9 @@
 import React from 'react'
+import CardStruc from './CardStruc/CardStruc'
 
 function Body() {
   return (
-    <div>Body</div>
+    <CardStruc/>
   )
 }
 

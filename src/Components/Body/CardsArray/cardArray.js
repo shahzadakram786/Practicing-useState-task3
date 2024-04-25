@@ -16,7 +16,7 @@ const CardArray = [
         text:"Shahzain",
         title:"Back E developer",
         image:"image"   
-}
+    }
 ]
 
 
