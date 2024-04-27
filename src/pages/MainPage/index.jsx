@@ -1,28 +1,17 @@
-import React from "react";
-import Card from "../../components/Card";
-import { arr1, arr2, arr3 } from "../../components/Card/arrays";
 
-function MainPage() {
-  const nextData = (info) => {
-    console.log(info);
-  };
+import React from "react";
+import "./mainpage.css";
+import Box from "../../components/Box/Box";
+
+// parent
+function Home() {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        width: "100%",
-        background:"grey"
-      }}
-    >
-      <Card data={arr1} nextData={nextData} />
-      <Card data={arr2} nextData={nextData} />
-      <Card data={arr3} nextData={nextData} />
+    <div className="app" >
+     <Box className="Boxes"/>
+     
+
     </div>
   );
 }
- 
-export default MainPage;
 
-
-
+export default Home;
