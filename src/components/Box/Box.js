@@ -6,6 +6,7 @@ const Box = () => {
     [
       { text: "Shahzain", buttons: ["Next"] },
       { text: "Shahzad", buttons: ["Next"] },
+      { text: "aliabbas", buttons: ["Next"] }
     ],
     [],
     [],
